@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignTop="@+id/food_item"
+        android:layout_alignBottom="@+id/food_item"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/food_bank_24"
+        />
+    <TextView
+        android:id="@+id/food_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:id="@+id/delete"
+        android:layout_alignTop="@+id/food_item"
+        android:layout_alignEnd="@+id/food_item"
+        android:layout_alignBottom="@+id/food_item"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/delete_forever_24" />
+</RelativeLayout>
